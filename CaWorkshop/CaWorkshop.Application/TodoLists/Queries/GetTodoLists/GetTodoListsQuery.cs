@@ -19,7 +19,8 @@ namespace CaWorkshop.Application.TodoLists.Queries.GetTodoLists
         private readonly IApplicationDbContext _context;
         private readonly IMapper _mapper;
 
-        public GetTodoListsQueryHandler(IApplicationDbContext context,
+        public GetTodoListsQueryHandler(
+            IApplicationDbContext context,
             IMapper mapper)
         {
             _context = context;
